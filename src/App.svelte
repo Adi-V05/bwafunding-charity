@@ -1,5 +1,5 @@
 <script>
-	import charityList from './Charitylist.svelte'
+	
 import Charitylist from './Charitylist.svelte';
 
 let tittle = "charity";
@@ -15,12 +15,12 @@ h1 {
 	font-size: 3em;
 	color: brown;
 }
-div {
+:global(div) {
 	border: 0.5em solid black;
     padding: 1em;
 }
 </style>
 <div>
 	<h1>{tittle}</h1>
-	<charityList />
+	<Charitylist/>
 </div>
