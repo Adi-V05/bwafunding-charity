@@ -16,11 +16,11 @@ h1 {
 	color: brown;
 }
 div {
-	border: 0.5em solid black
-	padding: 1em;
+	border: 0.5em solid black;
+    padding: 1em;
 }
 </style>
 <div>
 	<h1>{tittle</h1>
-	<Charitylist />
+	<charityList />
 </div>
