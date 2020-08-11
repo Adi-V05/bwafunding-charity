@@ -21,6 +21,6 @@ div {
 }
 </style>
 <div>
-	<h1>{tittle</h1>
+	<h1>{tittle}</h1>
 	<charityList />
 </div>
