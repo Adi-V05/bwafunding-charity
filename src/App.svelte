@@ -1,5 +1,26 @@
 <script>
-    import Home from './Pages/Home.svelte';
+    import CharityList from "./CharityList.svelte";
+
+
+    let title = "Charity";
+    setTimeout(function (){
+        title = "Donation";
+    }, 2000);
 </script>
 
-<Home />
+<style>
+h1 {
+    font-size: 3em;
+    color: blue;
+}
+div {
+    border: 0.5em solid blueviolet;
+    padding: 1em;
+}
+</style>
+
+<div>
+    <h1>{title}</h1>
+    <CharityList />
+</div>
+
