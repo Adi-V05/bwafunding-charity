@@ -14,7 +14,7 @@ h1 {
 	color: brown;
 }
 :global(div) {
-	border: 0.5em solid black;
+	border: 0.5em solid green;
     padding: 1em;
 }
 </style>
