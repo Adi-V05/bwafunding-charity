@@ -3,6 +3,7 @@
     import Charitylist from "../components/Charitylist.svelte";
     
     let tittle = "Charity";
+
     let charities = ['Charity 1','Charity 2','Charity 3'];
     </script>
     
