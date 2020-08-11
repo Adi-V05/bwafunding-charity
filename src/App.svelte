@@ -6,6 +6,8 @@
     setTimeout(function (){
         title = "Donation";
     }, 2000);
+
+    let charities = ['Charity 1','Charity 2','Charity 3'];
 </script>
 
 <style>
@@ -21,6 +23,6 @@ h1 {
 
 <div>
     <h1>{title}</h1>
-    <CharityList />
+    <CharityList charities = {charities}/>
 </div>
 
