@@ -23,6 +23,6 @@ h1 {
 
 <div>
     <h1>{title}</h1>
-    <CharityList charities = {charities}/>
+    <CharityList {charities}/>
 </div>
 
