@@ -14,7 +14,7 @@
     </style>
     <svelte:head>
         href="https://cdn.rawgit.com/kimeiga/bahunya/css/bahunya-0.1.3.css"
-        rel="stylesheet />"
+        rel="stylesheet "
     </svelte:head>
     <div>
     <h1>{title}</h1>
