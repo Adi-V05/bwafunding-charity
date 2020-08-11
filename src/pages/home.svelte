@@ -16,4 +16,5 @@
     <div>
         <h1>{tittle}</h1>
         <Charitylist charities = {charities}/>
+        <Charitylist />
     </div>
