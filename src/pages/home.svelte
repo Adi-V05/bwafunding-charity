@@ -1,6 +1,6 @@
 <script>
 
-    import CharityList from "../component/Charitylist.svelte";
+    import CharityList from "..component/Charitylist.svelte";
     
     let tittle = "charity";
     let charities = ['Charity 1','Charity 2', 'Charity 3'];
