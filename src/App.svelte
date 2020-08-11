@@ -1,5 +1,5 @@
 <script>
-import CharityList from ".CharityList.svelte";
+
 import Charitylist from "./Charitylist.svelte";
 
 let tittle = "Charity";
@@ -15,6 +15,7 @@ tittle = "Donation";
         }
 </style>
 
+<div>
 <h1>{tittle}</h1>
 <Charitylist/>
-
+</div>
