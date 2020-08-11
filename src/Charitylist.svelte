@@ -1,6 +1,6 @@
 <script>
     export let charities = ['local charity 1'];
-
+</script>
 <div>
     <h2>Daftar Charity</h2>
     <pre>{charities}</pre>
