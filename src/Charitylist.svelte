@@ -1,6 +1,5 @@
 <script>
-    export let charities;
-</script>
+    export let charities = ['local charity 1'];
 
 <div>
     <h2>Daftar Charity</h2>
