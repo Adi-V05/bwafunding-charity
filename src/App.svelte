@@ -6,6 +6,8 @@ let tittle = "Charity";
 setTimeout(function () {
 tittle = "Donation";
 }, 2000);
+
+let Charities = ['Charity 1','Charity 2','Charity 3'];
 </script>
 
 <style>
@@ -21,5 +23,5 @@ tittle = "Donation";
 
 <div>
 <h1>{tittle}</h1>
-<Charitylist/>
+<Charitylist Charities={Charities}/>
 </div>
