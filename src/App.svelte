@@ -1,4 +1,7 @@
 <script>
+	import charityList from './Charitylist.svelte'
+import Charitylist from './Charitylist.svelte';
+
 let tittle = "charity";
 setTimeout (function () {
 	tittle = "Donation";
@@ -6,7 +9,7 @@ setTimeout (function () {
 </script>
 
 <h1>{tittle}</h1>
-
+<Charitylist/>
 <style>
 h1 {
 	font-size: 3em;
