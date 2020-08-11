@@ -1,5 +1,5 @@
 <script>
-	
+
 import Charitylist from './Charitylist.svelte';
 
 let tittle = "charity";
@@ -15,7 +15,7 @@ h1 {
 	font-size: 3em;
 	color: brown;
 }
-:global(div) {
+:global (div) {
 	border: 0.5em solid black;
     padding: 1em;
 }

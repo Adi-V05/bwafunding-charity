@@ -1,4 +1,5 @@
-<div><h2>Daftar Charity</h2>
+<div>
+    <h2>Daftar Charity</h2>
 
 <ul>
     <li>Daftar 1</li>
