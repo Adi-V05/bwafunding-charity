@@ -1,5 +1,5 @@
 <script>
-    export let charities = ['Local charity 1'];
+    export let charities = ['Default Charity 1'];
 </script>
 <div>
     <h2>Daftar Charity</h2>

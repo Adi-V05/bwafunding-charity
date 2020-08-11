@@ -23,5 +23,5 @@ let charities = ['Charity 1','Charity 2','Charity 3'];
 
 <div>
 <h1>{tittle}</h1>
-<Charitylist harities={charities}/>
+<Charitylist {charities}/>
 </div>
