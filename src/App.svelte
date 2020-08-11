@@ -1,6 +1,7 @@
 <script>
 
 import Charitylist from './Charitylist.svelte';
+
 let tittle = "charity";
 setTimeout (function () {
 	tittle = "Donation";
