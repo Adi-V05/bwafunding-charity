@@ -13,7 +13,7 @@ h1 {
     font-size: 3em;
     color: blue;
 }
-div {
+:global(div) {
     border: 0.5em solid blueviolet;
     padding: 1em;
 }
