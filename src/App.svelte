@@ -13,6 +13,10 @@ tittle = "Donation";
         font-size: 3em;
         color:brown;
         }
+        div {
+            border: 0.5em solid blue;
+            padding: 1em;
+        }
 </style>
 
 <div>
