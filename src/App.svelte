@@ -15,4 +15,12 @@ h1 {
 	font-size: 3em;
 	color: brown;
 }
+div {
+	border: 0.5em solid black
+	padding: 1em;
+}
 </style>
+<div>
+	<h1>{tittle</h1>
+	<Charitylist />
+</div>
