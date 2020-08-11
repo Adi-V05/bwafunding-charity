@@ -1,6 +1,6 @@
 <script>
 
-    import Charitylist from "../components/Charitylist.svelte";
+    import CharityList from "../components/CharityList.svelte";
     
     let title = "Charity";
     let charities = ['Charity 1','Charity 2','Charity 3'];
@@ -12,9 +12,9 @@
             color:brown;
             }
     </style>
-    
+
     <div>
     <h1>{title}</h1>
-    <Charitylist {charities}/>
+    <CharityList {charities}/>
     </div>
     
